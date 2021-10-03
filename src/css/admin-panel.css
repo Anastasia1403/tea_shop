@@ -1,0 +1,162 @@
+.admin-panel__title {
+  
+  font-size: 20px;
+  margin: 10px auto 25px auto;
+  text-align: center;
+  font-weight: bold;    
+}
+
+.tea-title {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 8px 0;
+  padding: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgb(153, 143, 125);
+    
+}
+
+.show-form-button {
+  background-color: transparent;
+  padding: 5px 10px;
+  font-size: 20px;
+  margin-left: 10px;
+  color: rgb(85, 65, 9);
+  border-radius: 20%;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+/* 
+.show-form-button:hover, .show-form-button:focus, .show-form-button:active {
+  background-color: rgb(45, 110, 7);
+  color: rgb(240, 240, 240);
+
+} */
+
+.tea-form {    
+  
+  background-color: rgb(230, 238, 218);
+  padding: 8px;
+  font-size: 15px;
+}
+
+.tea-form label {
+  margin-top: 10px;
+  display: block;
+  padding: 5px;
+}
+
+.tea-form input, .tea-form select {
+  padding: 5px 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.tea-form__name-input {
+  display: block;
+  width: 100%;
+}
+
+.tea-form__image-input {
+
+  width: 100%;
+}
+
+.tea-form__label-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tea-form__select-wrapper {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+gap: 4px;
+}
+
+.tea-form__select-wrapper select {
+width: 50%;
+}
+
+.tea-form-package__labels {
+margin-top: 10px;
+padding: 5px;
+width: 90%;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+
+.tea-form-package__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.tea-form-package__row input {
+  width: 45%;
+}
+
+.tea-form-package__add-button {
+  padding: 7px;
+  width: 100%;
+  background-color: rgb(127, 155, 117);
+  color: white;
+  border-radius: 5px;
+}
+
+.tea-form-package__add-button:hover, .tea-form-package__add-button:active, .tea-form-package__add-button:focus {
+  background-color: rgb(111, 136, 103);
+}
+
+.tea-form-package__delete-button {
+  text-align: center;
+  width: 10%;
+  background-color: rgb(127, 155, 117);
+  color: white;
+  border-radius: 5px;
+}
+
+.tea-form-package__delete-button:hover, .tea-form-package__delete-button:active, .tea-form-package__delete-button:focus {
+  background-color: rgb(111, 136, 103);
+}
+
+.tea-form__description-textarea {
+  height: 200px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.tea-form__delete {
+  height: 30px;
+  background-color: rgb(85, 65, 9);
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+}
+
+.tea-form__delete:hover, .tea-form__delete:active, .tea-form__delete:focus {
+  background-color: rgb(97, 82, 42);
+} 
